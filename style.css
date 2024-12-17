@@ -213,3 +213,11 @@ main {
     overflow-y: hidden;
   }
 }
+
+/* Temporary fix for mobile responsiveness */
+
+@media (max-width: 400px) {
+  .games {
+    display: none;
+  }
+}
